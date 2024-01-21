@@ -5,3 +5,4 @@ This repository contains all notes from the 1Z0-829 Sudy Guide by Selikoff and B
 ## Table of contents
 
 1. [Building blocks](./docs/chp1.md)
+2. [Operators](./docs/chp2.md)
