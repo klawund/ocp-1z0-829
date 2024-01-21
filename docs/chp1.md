@@ -113,3 +113,13 @@ public class Var
 Refer to [Local variable type inference style guide](https://openjdk.java.net/projects/amber/LVTIstyle.html) for approppriate use cases.
 
 ## Managing variable scope
+
+### Understanding garbage collection
+
+Java includes a built-in method to help support garbage collection where you can suggest that garbage collection run:
+
+```java
+System.gc();
+```
+
+Java is free to ignore you, this method is not guaranteed to do anything.
