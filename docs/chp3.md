@@ -90,3 +90,31 @@ int result = switch(variableToTest)
 ```
 
 yield is used as a "return" clause inside a case block.
+
+### Adding optional labels
+
+Optional labels can be added to any control flow statement as an identifier to that statement. Can be useful when dealing with nested loops.
+
+They are declared by an identifier followed by a colon (:) in uppercase snake case.
+
+```java
+OUTER_LOOP: 
+for (int[] mySimpleArray : myComplexArray)
+{
+    INNER LOOP:
+    for (int i : mySimpleArray)
+    {
+        // ...
+    }
+}
+```
+
+### The break statement
+
+When using optional labels the break statement can break a specific label.
+
+When not using optional labels the break statement will interrupt the nearest loop.
+
+### The continue statement
+
+The continue statement also supports optional labels.
